@@ -12,7 +12,7 @@
 7.  Run "node enrollAdmin.js"
     "node registerUser.js"
 8. next run "node apiserver.js" to start the server on (http://localhost:8080)
-9. Make the get request at (http://localhost:8080/api/getallstudents) to get all the students data from the blockchain
+9. Make the get request at (http://localhost:8080/api/queryallstudents) to get all the students data from the blockchain
 10. Make the get request at (http://localhost:8080/api/query/bydid/{student_did}) to get the student data based on "student_did"
 11. Make a post request at (http://localhost:8080/api/addstudent/) to add a student into the blockchain based on student.json format
 12. Make a post request at (http://localhost:8080/api/changemarks/) to change a student marks based on changemarks.json format
