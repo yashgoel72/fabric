@@ -2,8 +2,9 @@
 ## How to run the project?
 1. Clone or download this repository to your local machine.
 2. Open your terminal/command prompt from your project directory and run "cd fabstudent"
-3. Run " ./startFabric.sh" to run the network and use couchDb to see the deployed network and see initial transaction
-4. Next start by changing into the "javascript" directory:
+3. Don't forget to run docker compose initially.
+4. Run " ./startFabric.sh" to run the network and use couchDb to see the deployed network and see initial transaction
+5. Next start by changing into the "javascript" directory:
     cd javascript
 5. Next, install all required packages:
     npm install
